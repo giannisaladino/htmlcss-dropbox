@@ -1,0 +1,81 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ig {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+li {
+    list-style: none;
+}
+ 
+/* LAYOUT */
+
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* style */
+
+.container-lg {
+    padding: 20px;
+}
+
+.container-lg ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.btn {
+    background-color: #0161FF;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.bg-hero {
+    background-color: #B4D0E7;
+}
+
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+
+/* debug */
