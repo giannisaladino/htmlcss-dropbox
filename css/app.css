@@ -36,10 +36,14 @@ li {
 }
 
 .container{
-	max-width: 850px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 .row {
 	display: flex;
@@ -47,6 +51,13 @@ li {
 }
 
 .col-4 {
+    width: calc(4* 100% / 12);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero-section .col-4 {
     width: calc(4 * 100% / 12);
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +71,9 @@ li {
     margin-top: auto;
 }
 
+.plan-section {
+    margin-top: 80px;
+}
 
 .col-8{
     width: calc(8 * 100% / 12);
@@ -67,6 +81,10 @@ li {
 
 .col-8 img {
     max-width: 100%;
+}
+
+.col-12 {
+    width: 100%;
 }
 
 
@@ -107,6 +125,76 @@ li {
     margin-bottom: 40px;
 }
 
+.plan-section .col-4 {
+    width: calc(4* 100% / 12);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.plan-section .card {
+    font-size: 14px;
+}
+
+.plan-title {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.input-radio {
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+
+
+.card__header {
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card__body {
+    padding: 15px;
+}
+
+.card__body ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.type-plan {
+    margin-bottom: 40px;
+}
+
+.free-trial {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}   
+
+.plan-description {
+    margin-top: 40px;
+}
+
+.plan-description ul {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.plan-description i {
+    color: #0161FF;
+}
+
+
 /* utilities */
 
 .flex {
@@ -125,4 +213,13 @@ li {
     flex-wrap: wrap;
 }
 
+.thin-border {
+    border: 1px solid lightgray;
+}
+
+
 /* debug */
+
+.bg-black {
+    background-color: black;
+}
