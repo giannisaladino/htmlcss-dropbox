@@ -31,33 +31,42 @@ li {
 }
  
 /* LAYOUT */
+.container, .container-lg, .container-sm {
+    width: 100%;
+}
 
 .container{
 	max-width: 850px;
 	margin: 0 auto;
 }
 
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.col-1_3 {
-    width: calc(100% / 3);
+.col-4 {
+    width: calc(4 * 100% / 12);
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 25px;
 }
 
 .down-arrow {
     font-size: 40px;
+    margin-top: auto;
 }
 
 
-.col-2_3 {
-    width: calc(100% / 3 * 2);
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
+.col-8{
+    width: calc(8 * 100% / 12);
+}
+
+.col-8 img {
+    max-width: 100%;
 }
 
 
@@ -79,10 +88,12 @@ li {
     color: white;
     border: none;
     padding: 9px 13px;
+    display: inline-block;
 }
 
 .hero-section {
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 
