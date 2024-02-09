@@ -11,7 +11,7 @@
 	box-sizing: border-box;
 }
 
-ig {
+img {
 	max-width: 100%;
 }
 
@@ -52,9 +52,8 @@ li {
 
 .col-4 {
     width: calc(4* 100% / 12);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+   
+
 }
 
 .hero-section .col-4 {
@@ -86,8 +85,12 @@ li {
 .col-12 {
     width: 100%;
     margin-top: 40px;
+    padding: 0 20px;
 }
 
+.partner-section {
+    margin-top: 120px;
+}
 
 /* style */
 
@@ -110,6 +113,15 @@ li {
     display: inline-block;
 }
 
+.white-btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 20px;
+    line-height: 35px;
+
+}
+
+
 .hero-section {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -129,13 +141,12 @@ li {
 .plan-section .col-4 {
     width: calc(4* 100% / 12);
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     padding: 10px 20px;
 }
 
 .plan-section .card {
     font-size: 14px;
+    border: 1px solid lightgray;
 }
 
 .plan-title {
@@ -151,6 +162,7 @@ li {
     padding: 7px;
     text-align: center;
     font-size: 15px;
+    border-bottom: 1px solid lightgray;
 }
 
 .card__body {
@@ -208,6 +220,22 @@ li {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+}
+
+.img-partner {
+    padding-right: 20px;
+}
+
+
+.sm-col-partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 50px;
+    gap: 20px;
+ 
 }
 
 
