@@ -85,6 +85,7 @@ li {
 
 .col-12 {
     width: 100%;
+    margin-top: 40px;
 }
 
 
@@ -130,7 +131,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 .plan-section .card {
@@ -144,10 +145,7 @@ li {
 
 .input-radio {
     margin-bottom: 30px;
-    gap: 20px;
 }
-
-
 
 .card__header {
     padding: 7px;
@@ -187,11 +185,29 @@ li {
 .plan-description ul {
     margin-top: 25px;
     display: flex;
+    flex-direction: column;
     gap: 15px;
+}
+
+.plan-description ul:last-child {
+    margin-bottom: auto;
 }
 
 .plan-description i {
     color: #0161FF;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.contact-p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 
