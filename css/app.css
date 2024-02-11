@@ -95,22 +95,6 @@ li {
     padding: 0 20px;
 }
 
-.partner-section {
-    margin-top: 120px;
-}
-
-.column-section {
-    margin-top: 120px;
-}
-
-.info-section {
-    margin-top: 120px;
-}
-
-.member-section {
-    margin-top: 120px;
-}
-
 /* style */
 
 .container-lg {
@@ -341,6 +325,24 @@ li {
     padding: 65px;
 }
 
+.agency-section {
+    background-color: #B4D0E7;
+    padding: 90px 0;
+}
+
+.agency-section .row {
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+}
+
+.agency-section .row div {
+    max-width: 400px;
+}
+
+.agency-section h1 {
+    font-size: 35px;
+}
 
 /* utilities */
 
@@ -366,6 +368,17 @@ li {
 
 .padding {
     padding: 30px 15px;
+}
+
+.margin-section {
+    margin-top: 120px;
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 35px;
 }
 
 /* debug */
