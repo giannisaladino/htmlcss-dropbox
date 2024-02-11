@@ -268,6 +268,15 @@ li {
     margin-bottom: 50px;
 }
 
+.member-section .col-4 {
+    padding: 40px 30px;
+    background-color: #F5F5F5;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .member-section .col-2 div {
     display: flex;
 }
@@ -298,14 +307,6 @@ li {
     padding: 65px;
 }
 
-.member-section .col-4 {
-    padding: 40px 30px;
-    background-color: #F5F5F5;
-    color: gray;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .member-section .col-4 img {
     max-width: 50%;
@@ -314,6 +315,30 @@ li {
 
 .member-section .col-4 div {
     margin-top: 40px;
+}
+
+.bicycle {
+    filter: invert(1);
+    background-color:  #00DAD6;
+    padding: 65px;
+}
+
+.lonely {
+    filter: invert(1);
+    background-color: #EFDB75;
+    padding: 65px;
+}
+
+.hearts {
+    filter: invert(1);
+    background-color: #4A2F16;
+    padding: 65px;
+}
+
+.clear {
+    filter: invert(1);
+    background-color: #0027B0;
+    padding: 65px;
 }
 
 
