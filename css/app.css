@@ -344,6 +344,23 @@ li {
     font-size: 35px;
 }
 
+.question-section h2 {
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+.domande{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(138, 137, 137);
+    padding: 12px 0;
+}
+
 /* utilities */
 
 .flex {
@@ -356,6 +373,10 @@ li {
 
 .flex-between {
     justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
 }
 
 .wrap {
@@ -379,6 +400,10 @@ li {
     color: black;
     border: none;
     padding: 10px 35px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(138, 137, 137);
 }
 
 /* debug */
