@@ -15,10 +15,10 @@ img {
 	max-width: 100%;
 }
 
-a {
+/* a {
 	text-decoration: none;
 	color: currentColor;
-}
+} */
 
 menu,
 ul,
@@ -70,6 +70,10 @@ li {
     margin-top: auto;
 }
 
+.fatt-mensile {
+    margin-right: 40px;
+}
+
 .plan-section {
     margin-top: 80px;
 }
@@ -96,8 +100,8 @@ li {
     margin-top: 120px;
 }
 
-.fatt-mensile {
-    margin-right: 40px;
+.info-section {
+    margin-top: 120px;
 }
 
 /* style */
@@ -252,6 +256,11 @@ li {
     margin-bottom: 20px;
 }
 
+.info-title {
+    max-width: 550px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
 /* utilities */
 
 .flex {
