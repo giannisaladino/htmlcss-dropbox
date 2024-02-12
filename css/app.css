@@ -188,10 +188,8 @@ li {
 
 .features li {
     display: flex;
-    gap: 10px;
-    
+    gap: 10px;   
 }
-
 
 .free-trial {
     margin-top: 40px;
@@ -268,6 +266,10 @@ li {
     max-width: 550px;
     font-size: 25px;
     margin-bottom: 50px;
+}
+
+.column-section .container-sm h1 {
+    font-size: 35px;
 }
 
 .member-section .col-4 {
