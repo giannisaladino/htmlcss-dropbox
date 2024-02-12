@@ -291,6 +291,7 @@ li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 50px;
 }
 
 .member-section .right {
@@ -302,7 +303,7 @@ li {
 .designit {
     background-image: url(../img/designit.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #592B62;
@@ -311,17 +312,16 @@ li {
 .arizona {
     background-image: url(../img/arizona_state_university.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #90EED3;
-    padding: 45px;
 }
 
 .florida {
     background-image: url(../img/university_of_florida.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #CC6924;
@@ -331,7 +331,7 @@ li {
 .topps {
     background-image: url(../img/topps.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #00C8D3;
@@ -340,13 +340,23 @@ li {
 
 .member-section .col-4 img {
     max-width: 50%;
-    border-bottom: 1px solid gray;
+}
+
+.big-designit{
+
+}
+
+.big-designit::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: rgb(10, 7, 7);
 }
 
 .bicycle {
     background-image: url(../img/world_bicycle_relief.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color:  #00DAD6;
@@ -355,7 +365,7 @@ li {
 .hearts {
     background-image: url(../img/hearst_corp.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #4A2F16;
@@ -365,7 +375,7 @@ li {
 .lonely {
     background-image: url(../img/lonely_planet.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #EFDB75;
@@ -375,7 +385,7 @@ li {
 .clear {
     background-image: url(../img/clear_channel.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     filter: invert(1);
     background-color: #0027B0;
@@ -427,13 +437,13 @@ h4 {
     margin-bottom: 25px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .col-20 ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     font-size: 14px;
 }
@@ -442,12 +452,10 @@ h4 {
     width: 100px;
     border: 1px solid lightgray;
     margin-top: 80px;
-    margin-left: 35px;
 }
 
 .select {
     margin-top: 30px;
-    margin-left: 30px;
     color: lightgray;
 }
 
